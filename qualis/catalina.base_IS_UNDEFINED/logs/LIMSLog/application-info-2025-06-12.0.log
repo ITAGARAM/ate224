@@ -1,0 +1,2759 @@
+{
+  "timestamp" : "2025-06-12 11:15:49.704",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.agaramtech.qualis.QualisApplication",
+  "message" : "Starting QualisApplication using Java 21.0.5 with PID 14040 (D:\\Spring Boot-LIMS\\qualis\\target\\classes started by ATE234 in D:\\Spring Boot-LIMS\\qualis)",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:15:49.784",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.agaramtech.qualis.QualisApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:31.304",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port 6063 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:31.388",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-6063\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:31.396",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:31.396",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.36]",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:31.641",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/QuaLIS]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:31.644",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 41710 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:47.116",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-6063\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:47.161",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port 6063 (http) with context path '/QuaLIS'",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:16:47.176",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.agaramtech.qualis.QualisApplication",
+  "message" : "Started QualisApplication in 58.787 seconds (process running for 62.145)",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:27.634",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/QuaLIS]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:27.637",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:27.639",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:27.653",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:27.709",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:28.039",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3634ade9",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:28.044",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:28.139",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:21:28.194",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:22:51.983",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:22:52.030",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:22:52.050",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:23:18.582",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:23:18.616",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:23:19.499",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:23:20.026",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:23:20.026",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:23:20.049",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:23:20.056",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:08.806",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:08.824",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:08.840",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:23.394",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:23.409",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:23.442",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:33.771",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:33.799",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:44.949",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:44.968",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:47.303",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:47.328",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:55.712",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:31:55.721",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:32:00.342",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:32:05.039",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:32:05.053",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:32:06.753",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:32:06.779",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:32:09.619",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:32:09.636",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:40:52.403",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:40:52.429",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:40:52.449",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.restcontroller.BulkBarcodeGenerationController",
+  "message" : "getBulkBarcodeGeneration()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:40:59.174",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:40:59.189",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:41:00.051",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:41:00.066",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:41:00.079",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.restcontroller.BulkBarcodeGenerationController",
+  "message" : "getBulkBarcodeGeneration()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:41:53.830",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:28.942",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:58.238",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:58.282",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:58.310",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:58.731",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:58.754",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:58.889",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:59.154",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:59.158",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:59.173",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:42:59.184",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:05.214",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:05.231",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:05.251",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "com.agaramtech.qualis.restcontroller.BulkBarcodeConfigController",
+  "message" : "getBulkBarcodeConfiguration() called",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:05.260",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "com.agaramtech.qualis.bulkbarcodeconfiguration.service.BulkBarcodeConfigDAOImpl",
+  "message" : "getBulkBarcodeConfiguration() called",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:09.074",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:09.091",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:40.801",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.092",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnInsertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.131",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.181",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.191",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.191",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.191",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.191",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.191",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.191",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.191",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.197",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.197",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.197",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnJsonArrayAudit",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.391",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "mappingStyle: FIELD",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.411",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "loading GuavaAddOns ...",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.551",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "using fake InMemoryRepository, register actual Repository implementation via JaversBuilder.registerJaversRepository()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:43:41.641",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "JaVers instance started in 390 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.616",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.635",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.663",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnInsertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.699",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.703",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.704",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.704",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.704",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.705",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.706",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.706",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.707",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.708",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.708",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.709",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnJsonArrayAudit",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.714",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "mappingStyle: FIELD",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.715",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "loading GuavaAddOns ...",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.719",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "using fake InMemoryRepository, register actual Repository implementation via JaversBuilder.registerJaversRepository()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:22.721",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "JaVers instance started in 10 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.407",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.709",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnInsertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.752",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.756",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.756",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.758",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.758",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.758",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.758",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.759",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.759",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.761",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.761",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.762",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnJsonArrayAudit",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.767",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "mappingStyle: FIELD",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.768",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "loading GuavaAddOns ...",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.771",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "using fake InMemoryRepository, register actual Repository implementation via JaversBuilder.registerJaversRepository()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:46:33.774",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "JaVers instance started in 8 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:47:32.970",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:47:32.985",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:47:33.008",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:57:59.983",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:57:59.998",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:58:00.036",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:58:21.299",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:58:21.314",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:58:21.338",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:58:21.558",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:58:21.590",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 11:58:21.614",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:01:36.706",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:01:36.721",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:01:36.771",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.161",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.695",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnInsertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.758",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.766",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.767",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.767",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.767",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.767",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.768",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.769",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.769",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.770",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.771",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodegeneration",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.772",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnJsonArrayAudit",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.777",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "mappingStyle: FIELD",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.777",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "loading GuavaAddOns ...",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.783",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "using fake InMemoryRepository, register actual Repository implementation via JaversBuilder.registerJaversRepository()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:03:15.787",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "JaVers instance started in 12 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:04:22.559",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:04:22.582",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:04:28.602",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:04:28.649",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:12:58.849",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:12:58.861",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:12:58.986",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:12:59.090",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:12:59.095",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:12:59.104",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:12:59.105",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:01.066",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:01.074",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:01.084",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.restcontroller.BulkBarcodeConfigController",
+  "message" : "getBulkBarcodeConfiguration() called",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:01.086",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.bulkbarcodeconfiguration.service.BulkBarcodeConfigDAOImpl",
+  "message" : "getBulkBarcodeConfiguration() called",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:05.046",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:05.055",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:19.464",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:19.501",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:27.621",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:27.626",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.733",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.743",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.764",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnInsertListAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.774",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfig",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.774",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfig",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.775",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfig",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.777",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfig",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.781",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfig",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.781",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfig",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.781",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigversion",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.781",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigversion",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.781",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigversion",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.786",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigversion",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.792",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigversion",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.793",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigversion",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.793",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnJsonArrayAudit",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.795",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "mappingStyle: FIELD",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.795",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "loading GuavaAddOns ...",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.797",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "using fake InMemoryRepository, register actual Repository implementation via JaversBuilder.registerJaversRepository()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:36.798",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "JaVers instance started in 3 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.945",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.955",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.971",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnInsertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.983",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.987",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.988",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.988",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.988",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.988",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.988",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.989",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.989",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.989",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.989",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.ClassUtilityFunction",
+  "message" : "Class Namebulkbarcodeconfigdetails",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.989",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "fnJsonArrayAudit",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.991",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "mappingStyle: FIELD",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.991",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "loading GuavaAddOns ...",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.994",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "using fake InMemoryRepository, register actual Repository implementation via JaversBuilder.registerJaversRepository()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:13:57.995",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "org.javers.core.JaversBuilder",
+  "message" : "JaVers instance started in 5 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:15:11.108",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:15:11.118",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:13.441",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:13.480",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:13.486",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.restcontroller.SampleStorageMoveController",
+  "message" : "getsamplestoragemove()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:13.490",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.storagemanagement.service.samplestoragemove.SampleStorageMoveDAOImpl",
+  "message" : "getsamplestoragemove()",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:21.114",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:21.122",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:31.693",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:31.703",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:44.068",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:44.074",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:54.852",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:16:54.861",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:17:17.656",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:17:17.661",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:18:57.121",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:18:57.134",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:19:06.365",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:19:06.377",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:19:14.674",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:19:14.682",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:19:17.200",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:19:17.212",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:19:26.903",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:19:26.917",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:02.828",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:02.834",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:02.986",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "userInfo:UserInfo(nusercode=-1, nuserrole=-1, ndeputyusercode=-1, ndeputyuserrole=-1, nmodulecode=71, nformcode=199, nreasoncode=0, slanguagetypecode=en-US, sreportlanguagecode=en-US, sConnectionString=Server=localhost;Port=5433;Database=THIST02-06-1;User=postgres;Pwd=admin@123;, nsitecode=1, ntranssitecode=1, nmastersitecode=-1, sreason=, susername=QuaLIS Admin, suserrolename=QuaLIS Admin, slanguagefilename=Msg_en_US, nusersitecode=-1, sloginid=system, sdeptname=NA, ndeptcode=-1, sdatetimeformat=dd/MM/yyyy HH:mm:ss, ntimezonecode=-1, stimezoneid=Europe/London, ssitedatetime=dd/MM/yyyy HH:mm:ss, ssitereportdatetime=dd/MM/yyyy HH:mm:ss, ssitereportdate=dd/MM/yyyy, ssitedate=dd/MM/yyyy, nlogintypecode=1, sfirstname=QuaLIS, slastname=Admin, ssessionid=BB5C38B38B55FB4E4CE8FC21B319AC54, shostip=0:0:0:0:0:0:0:1, spassword=null, sgmtoffset=UTC +00:00, sdeputyid=system, ssitename=THSTI BRF, sformname=Sample Storage, smodulename=Storage Management, istimezoneshow=4, sreportingtoolfilename=en.xml, spredefinedreason=null, isutcenabled=4, nsiteadditionalinfo=4, nissyncserver=3, nisstandaloneserver=4, slanguagename=English, ssitecode=SYNC, sdeputyusername=QuaLIS Admin, sdeputyuserrolename=QuaLIS Admin, activelanguagelist=[en-US], spgdatetimeformat=dd/MM/yyyy HH24:mi:ss, spgsitedatetime=dd/MM/yyyy HH24:mi:ss, spgsitereportdatetime=dd/MM/yyyy HH24:mi:ss)",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:02.990",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Line Number ======> 116",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:02.990",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Class Name ======> org.springframework.jdbc.support.SQLStateSQLExceptionTranslator",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:02.990",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Method Name ======> doTranslate",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:02.990",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Message ======> org.springframework.dao.DuplicateKeyException: StatementCallback; SQL [ insert into samplestoragetransaction (nsamplestoragetransactioncode, nsamplestoragelocationcode, nsamplestoragemappingcode, nprojecttypecode, sposition,\tspositionvalue, jsondata, npositionfilled, dmodifieddate, nsitecode, nstatus)  values ( 4,1,600,1 ,'A1','B3092983530967', '{\"IDS_POSITION\":\"A1\",\"Collection Tube Type\":\"Plain\",\"Project ID\":\"-\",\"Sample Donor\":\"Newborn\",\"Visit Number\":\"Delivery (Visit-5)\",\"IDS_UNITNAME\":\"NA\",\"Tube Number\":\"67\",\"Participant ID\":\"09298\",\"IDS_SAMPLEID\":\"B3092983530967\",\"Nature of Tube\":\"Storage\",\"Sample Collection Type\":\"Serum\",\"IDS_QUANTITY\":\"-\",\"Sample Punch\":\"-\"}',3 ,'2025-06-12T12:20:02Z',1,1) ; update seqnobasemaster set nsequenceno= 4 where stablename='samplestoragetransaction';]; ERROR: duplicate key value violates unique constraint \"samplestoragetransaction_1_pkey\"\n  Detail: Key (nsamplestoragetransactioncode, nsamplestoragelocationcode, nsitecode)=(4, 1, 1) already exists.",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:23.282",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:23.288",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:23.354",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "userInfo:UserInfo(nusercode=-1, nuserrole=-1, ndeputyusercode=-1, ndeputyuserrole=-1, nmodulecode=71, nformcode=199, nreasoncode=0, slanguagetypecode=en-US, sreportlanguagecode=en-US, sConnectionString=Server=localhost;Port=5433;Database=THIST02-06-1;User=postgres;Pwd=admin@123;, nsitecode=1, ntranssitecode=1, nmastersitecode=-1, sreason=, susername=QuaLIS Admin, suserrolename=QuaLIS Admin, slanguagefilename=Msg_en_US, nusersitecode=-1, sloginid=system, sdeptname=NA, ndeptcode=-1, sdatetimeformat=dd/MM/yyyy HH:mm:ss, ntimezonecode=-1, stimezoneid=Europe/London, ssitedatetime=dd/MM/yyyy HH:mm:ss, ssitereportdatetime=dd/MM/yyyy HH:mm:ss, ssitereportdate=dd/MM/yyyy, ssitedate=dd/MM/yyyy, nlogintypecode=1, sfirstname=QuaLIS, slastname=Admin, ssessionid=BB5C38B38B55FB4E4CE8FC21B319AC54, shostip=0:0:0:0:0:0:0:1, spassword=null, sgmtoffset=UTC +00:00, sdeputyid=system, ssitename=THSTI BRF, sformname=Sample Storage, smodulename=Storage Management, istimezoneshow=4, sreportingtoolfilename=en.xml, spredefinedreason=null, isutcenabled=4, nsiteadditionalinfo=4, nissyncserver=3, nisstandaloneserver=4, slanguagename=English, ssitecode=SYNC, sdeputyusername=QuaLIS Admin, sdeputyuserrolename=QuaLIS Admin, activelanguagelist=[en-US], spgdatetimeformat=dd/MM/yyyy HH24:mi:ss, spgsitedatetime=dd/MM/yyyy HH24:mi:ss, spgsitereportdatetime=dd/MM/yyyy HH24:mi:ss)",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:23.356",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Line Number ======> 116",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:23.356",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Class Name ======> org.springframework.jdbc.support.SQLStateSQLExceptionTranslator",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:23.357",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Method Name ======> doTranslate",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:23.357",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Message ======> org.springframework.dao.DuplicateKeyException: StatementCallback; SQL [ insert into samplestoragetransaction (nsamplestoragetransactioncode, nsamplestoragelocationcode, nsamplestoragemappingcode, nprojecttypecode, sposition,\tspositionvalue, jsondata, npositionfilled, dmodifieddate, nsitecode, nstatus)  values ( 4,1,600,1 ,'A1','P3092983530967', '{\"IDS_POSITION\":\"A1\",\"Collection Tube Type\":\"Plain\",\"Project ID\":\"Enrolled\",\"Sample Donor\":\"Newborn\",\"Visit Number\":\"Delivery (Visit-5)\",\"IDS_UNITNAME\":\"NA\",\"Tube Number\":\"67\",\"Participant ID\":\"09298\",\"IDS_SAMPLEID\":\"P3092983530967\",\"Nature of Tube\":\"Storage\",\"Sample Collection Type\":\"Serum\",\"IDS_QUANTITY\":\"-\",\"Sample Punch\":\"-\"}',3 ,'2025-06-12T12:20:23Z',1,1) ; update seqnobasemaster set nsequenceno= 4 where stablename='samplestoragetransaction';]; ERROR: duplicate key value violates unique constraint \"samplestoragetransaction_1_pkey\"\n  Detail: Key (nsamplestoragetransactioncode, nsamplestoragelocationcode, nsitecode)=(4, 1, 1) already exists.",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:32.049",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:32.060",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:42.167",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:42.172",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:42.205",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "userInfo:UserInfo(nusercode=-1, nuserrole=-1, ndeputyusercode=-1, ndeputyuserrole=-1, nmodulecode=71, nformcode=199, nreasoncode=0, slanguagetypecode=en-US, sreportlanguagecode=en-US, sConnectionString=Server=localhost;Port=5433;Database=THIST02-06-1;User=postgres;Pwd=admin@123;, nsitecode=1, ntranssitecode=1, nmastersitecode=-1, sreason=, susername=QuaLIS Admin, suserrolename=QuaLIS Admin, slanguagefilename=Msg_en_US, nusersitecode=-1, sloginid=system, sdeptname=NA, ndeptcode=-1, sdatetimeformat=dd/MM/yyyy HH:mm:ss, ntimezonecode=-1, stimezoneid=Europe/London, ssitedatetime=dd/MM/yyyy HH:mm:ss, ssitereportdatetime=dd/MM/yyyy HH:mm:ss, ssitereportdate=dd/MM/yyyy, ssitedate=dd/MM/yyyy, nlogintypecode=1, sfirstname=QuaLIS, slastname=Admin, ssessionid=BB5C38B38B55FB4E4CE8FC21B319AC54, shostip=0:0:0:0:0:0:0:1, spassword=null, sgmtoffset=UTC +00:00, sdeputyid=system, ssitename=THSTI BRF, sformname=Sample Storage, smodulename=Storage Management, istimezoneshow=4, sreportingtoolfilename=en.xml, spredefinedreason=null, isutcenabled=4, nsiteadditionalinfo=4, nissyncserver=3, nisstandaloneserver=4, slanguagename=English, ssitecode=SYNC, sdeputyusername=QuaLIS Admin, sdeputyuserrolename=QuaLIS Admin, activelanguagelist=[en-US], spgdatetimeformat=dd/MM/yyyy HH24:mi:ss, spgsitedatetime=dd/MM/yyyy HH24:mi:ss, spgsitereportdatetime=dd/MM/yyyy HH24:mi:ss)",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:42.206",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Line Number ======> 116",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:42.206",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Class Name ======> org.springframework.jdbc.support.SQLStateSQLExceptionTranslator",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:42.206",
+  "level" : "ERROR",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Method Name ======> doTranslate",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:20:42.206",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.restcontroller.ExceptionLogController",
+  "message" : "Exception Message ======> org.springframework.dao.DuplicateKeyException: StatementCallback; SQL [ insert into samplestoragetransaction (nsamplestoragetransactioncode, nsamplestoragelocationcode, nsamplestoragemappingcode, nprojecttypecode, sposition,\tspositionvalue, jsondata, npositionfilled, dmodifieddate, nsitecode, nstatus)  values ( 4,1,600,1 ,'A1','Z3092993530967', '{\"IDS_POSITION\":\"A1\",\"Collection Tube Type\":\"Plain\",\"Project ID\":\"-\",\"Sample Donor\":\"Newborn\",\"Visit Number\":\"Delivery (Visit-5)\",\"IDS_UNITNAME\":\"NA\",\"Tube Number\":\"67\",\"Participant ID\":\"09299\",\"IDS_SAMPLEID\":\"Z3092993530967\",\"Nature of Tube\":\"Storage\",\"Sample Collection Type\":\"Serum\",\"IDS_QUANTITY\":\"-\",\"Sample Punch\":\"-\"}',3 ,'2025-06-12T12:20:42Z',1,1) ; update seqnobasemaster set nsequenceno= 4 where stablename='samplestoragetransaction';]; ERROR: duplicate key value violates unique constraint \"samplestoragetransaction_1_pkey\"\n  Detail: Key (nsamplestoragetransactioncode, nsamplestoragelocationcode, nsitecode)=(4, 1, 1) already exists.",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:00.841",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:00.856",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:00.870",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.restcontroller.SampleCollectionController",
+  "message" : "getSampleCollection called",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:00.887",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.storagemanagement.service.samplecollection.SampleCollectionDAOImpl",
+  "message" : "getBarcodeLengthByProjecType:SELECT  bc.nbarcodelength AS nbarcodelength,  bcd.nfieldstartposition as samplecyclestartpostion,  bcd.nfieldlength as samplecyclenfieldlength FROM  projecttype pt , bulkbarcodeconfigversion bcv,  bulkbarcodeconfig bc LEFT JOIN   bulkbarcodeconfigdetails bcd ON bcd.nbulkbarcodeconfigcode = bc.nbulkbarcodeconfigcode   AND bcd.nprojecttypecode = bc.nprojecttypecode   AND bcd.stablename = 'samplecycle'   AND bcd.nstatus = 1 WHERE  bc.nprojecttypecode = 10  AND bcv.ntransactionstatus = 31   AND  bc.nbulkbarcodeconfigcode = bcv.nbulkbarcodeconfigcode    AND  pt.nprojecttypecode = bc.nprojecttypecode   AND pt.nstatus = 1  AND bc.nstatus = 1  AND bcv.nstatus = 1  AND bc.nsitecode = -1;",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:02.903",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:02.912",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "com.agaramtech.qualis.restcontroller.SampleCollectionController",
+  "message" : "getSampleCollection called",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:02.918",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "com.agaramtech.qualis.storagemanagement.service.samplecollection.SampleCollectionDAOImpl",
+  "message" : "getBarcodeLengthByProjecType:SELECT  bc.nbarcodelength AS nbarcodelength,  bcd.nfieldstartposition as samplecyclestartpostion,  bcd.nfieldlength as samplecyclenfieldlength FROM  projecttype pt , bulkbarcodeconfigversion bcv,  bulkbarcodeconfig bc LEFT JOIN   bulkbarcodeconfigdetails bcd ON bcd.nbulkbarcodeconfigcode = bc.nbulkbarcodeconfigcode   AND bcd.nprojecttypecode = bc.nprojecttypecode   AND bcd.stablename = 'samplecycle'   AND bcd.nstatus = 1 WHERE  bc.nprojecttypecode = 1  AND bcv.ntransactionstatus = 31   AND  bc.nbulkbarcodeconfigcode = bcv.nbulkbarcodeconfigcode    AND  pt.nprojecttypecode = bc.nprojecttypecode   AND pt.nstatus = 1  AND bc.nstatus = 1  AND bcv.nstatus = 1  AND bc.nsitecode = -1;",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:26.644",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:26.644",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:26.659",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:26.659",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:26.668",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "com.agaramtech.qualis.basemaster.service.timezone.TimeZoneDAOImpl",
+  "message" : "date:12/06/2025 12:21:26",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:26.668",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.basemaster.service.unit.UnitDAOImpl",
+  "message" : "Get Method:select u.nunitcode, u.sunitname, u.sunitsynonym, u.sdescription,  u.ndefaultstatus, u.nsitecode, u.nstatus, coalesce(ts.jsondata->'stransdisplaystatus'->>'en-US', ts.jsondata->'stransdisplaystatus'->>'en-US') as sdisplaystatus  from unit u,transactionstatus ts  where u.nstatus = 1 and ts.nstatus = 1 and u.nunitcode > 0 and ts.ntranscode=u.ndefaultstatus and  u.nsitecode=-1 order by 1 desc",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:33.349",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:33.358",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:37.469",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:56.369",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:21:56.389",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:23:00.988",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:23:00.994",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:23:01.010",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:26:15.318",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:26:15.338",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:26:15.352",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:26:20.823",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:26:20.828",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:26:20.856",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:26:24.139",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:26:24.171",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:30:21.982",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:30:21.991",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:30:22.002",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:33:00.516",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:33:00.524",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:33:00.532",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:33:27.945",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:33:27.952",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:33:27.968",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:35:48.859",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:35:48.876",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:35:48.899",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:40:44.994",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:40:45.001",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:40:45.010",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:14.994",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:15.007",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:15.024",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:45.444",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:45.444",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:45.464",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:53.004",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:53.005",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:53.011",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:53.011",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:53.029",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:42:53.029",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:46:48.995",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:46:49.015",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:46:49.036",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:46:55.985",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:46:56.004",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:46:56.016",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.280",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.280",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.287",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.287",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.304",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.304",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.517",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.522",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.529",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.529",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.540",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 12:57:21.544",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:18.293",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:18.318",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:18.424",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:18.593",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:18.593",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:18.608",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:18.613",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:22.093",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:22.103",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:22.112",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.restcontroller.BarcodeController",
+  "message" : "getSampleAppearance -->",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:22.115",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "com.agaramtech.qualis.basemaster.service.barcode.BarcodeDAOImpl",
+  "message" : "getBarcode -->",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:23.603",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:15:23.603",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:19:51.008",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:19:51.023",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:19:51.033",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:22:49.719",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:22:49.724",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:22:49.755",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-10",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:29:09.027",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:29:09.029",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:29:09.044",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:39:21.037",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:39:21.050",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:39:21.085",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:39:21.458",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:39:21.473",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 13:39:21.487",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:14:14.200",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-9",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:14:14.248",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:37:56.843",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-1",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:37:56.866",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:37:57.016",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:37:57.209",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:37:57.211",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:37:57.224",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:37:57.226",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:42:17.096",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-8",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:42:17.107",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:42:17.119",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-2",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:52:21.098",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-4",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:52:21.109",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:52:21.133",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-3",
+  "logger" : "com.agaramtech.qualis.global.AuditUtilityFunction",
+  "message" : "insertAuditAction",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:52:21.614",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-5",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:52:21.628",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-6",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}{
+  "timestamp" : "2025-06-12 15:52:21.644",
+  "level" : "INFO",
+  "thread" : "http-nio-6063-exec-7",
+  "logger" : "unknown.jul.logger",
+  "message" : "Adding Access Control Response Headers",
+  "context" : "default"
+}
